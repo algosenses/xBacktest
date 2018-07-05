@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\source\Analyzer\Drawdown.cpp" />
+    <ClCompile Include="..\..\..\source\Analyzer\Returns.cpp" />
+    <ClCompile Include="..\..\..\source\Analyzer\Sharpe.cpp" />
+    <ClCompile Include="..\..\..\source\Analyzer\Trades.cpp" />
+    <ClCompile Include="..\..\..\source\Broker\Backtesting.cpp" />
+    <ClCompile Include="..\..\..\source\Broker\Broker.cpp" />
+    <ClCompile Include="..\..\..\source\Broker\FillStrategy.cpp" />
+    <ClCompile Include="..\..\..\source\Broker\Order.cpp" />
+    <ClCompile Include="..\..\..\source\Core\Bar.cpp" />
+    <ClCompile Include="..\..\..\source\Core\Dispatcher.cpp" />
+    <ClCompile Include="..\..\..\source\Core\Event.cpp" />
+    <ClCompile Include="..\..\..\source\Core\Framework.cpp" />
+    <ClCompile Include="..\..\..\source\Core\FrameworkImpl.cpp" />
+    <ClCompile Include="..\..\..\source\Core\Observer.cpp" />
+    <ClCompile Include="..\..\..\source\Feed\BarFeed.cpp" />
+    <ClCompile Include="..\..\..\source\Feed\BaseFeed.cpp" />
+    <ClCompile Include="..\..\..\source\Feed\CsvFeed.cpp" />
+    <ClCompile Include="..\..\..\source\Feed\csv_parser.cpp" />
+    <ClCompile Include="..\..\..\source\Feed\TsFileFeed.cpp" />
+    <ClCompile Include="..\..\..\source\Optimizer\Backtester.cpp" />
+    <ClCompile Include="..\..\..\source\Optimizer\GeneticAlgo.cpp" />
+    <ClCompile Include="..\..\..\source\Optimizer\Optimizer.cpp" />
+    <ClCompile Include="..\..\..\source\Series\BarSeries.cpp" />
+    <ClCompile Include="..\..\..\source\Series\DataSeries.cpp" />
+    <ClCompile Include="..\..\..\source\Shell\Shell.cpp" />
+    <ClCompile Include="..\..\..\source\Strategy\Position.cpp" />
+    <ClCompile Include="..\..\..\source\Strategy\PositionImpl.cpp" />
+    <ClCompile Include="..\..\..\source\Strategy\Runtime.cpp" />
+    <ClCompile Include="..\..\..\source\Strategy\Strategy.cpp" />
+    <ClCompile Include="..\..\..\source\Strategy\StrategyImpl.cpp" />
+    <ClCompile Include="..\..\..\source\Technical\ATR.cpp" />
+    <ClCompile Include="..\..\..\source\Technical\HighLow.cpp" />
+    <ClCompile Include="..\..\..\source\Technical\MA.cpp" />
+    <ClCompile Include="..\..\..\source\Technical\MACD.cpp" />
+    <ClCompile Include="..\..\..\source\Technical\RSI.cpp" />
+    <ClCompile Include="..\..\..\source\Technical\Stoch.cpp" />
+    <ClCompile Include="..\..\..\source\Technical\Technical.cpp" />
+    <ClCompile Include="..\..\..\source\Utils\DateTime.cpp" />
+    <ClCompile Include="..\..\..\source\Utils\Errors.cpp" />
+    <ClCompile Include="..\..\..\source\Utils\Logger.cpp" />
+    <ClCompile Include="..\..\..\source\Utils\Random.cpp" />
+    <ClCompile Include="..\..\..\source\Utils\tinyxml2.cpp" />
+    <ClCompile Include="..\..\..\source\Utils\Utils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\source\Analyzer\Drawdown.h" />
+    <ClInclude Include="..\..\..\source\Analyzer\Returns.h" />
+    <ClInclude Include="..\..\..\source\Analyzer\Sharpe.h" />
+    <ClInclude Include="..\..\..\source\Analyzer\StgyAnalyzer.h" />
+    <ClInclude Include="..\..\..\source\Analyzer\Trades.h" />
+    <ClInclude Include="..\..\..\source\Broker\Backtesting.h" />
+    <ClInclude Include="..\..\..\source\Broker\Broker.h" />
+    <ClInclude Include="..\..\..\source\Broker\FillStrategy.h" />
+    <ClInclude Include="..\..\..\source\Broker\Order.h" />
+    <ClInclude Include="..\..\..\source\Core\Bar.h" />
+    <ClInclude Include="..\..\..\source\Core\Defines.h" />
+    <ClInclude Include="..\..\..\source\Core\Dispatcher.h" />
+    <ClInclude Include="..\..\..\source\Core\Event.h" />
+    <ClInclude Include="..\..\..\source\Core\Framework.h" />
+    <ClInclude Include="..\..\..\source\Core\FrameworkImpl.h" />
+    <ClInclude Include="..\..\..\source\Core\Observer.h" />
+    <ClInclude Include="..\..\..\source\Feed\BarFeed.h" />
+    <ClInclude Include="..\..\..\source\Feed\BaseFeed.h" />
+    <ClInclude Include="..\..\..\source\Feed\CsvFeed.h" />
+    <ClInclude Include="..\..\..\source\Feed\csv_parser.hpp" />
+    <ClInclude Include="..\..\..\source\Feed\TsFileFeed.h" />
+    <ClInclude Include="..\..\..\source\Optimizer\Backtester.h" />
+    <ClInclude Include="..\..\..\source\Optimizer\GeneticAlgo.h" />
+    <ClInclude Include="..\..\..\source\Optimizer\Optimizer.h" />
+    <ClInclude Include="..\..\..\source\Series\BarSeries.h" />
+    <ClInclude Include="..\..\..\source\Series\circular.h" />
+    <ClInclude Include="..\..\..\source\Series\DataSeries.h" />
+    <ClInclude Include="..\..\..\source\Strategy\Position.h" />
+    <ClInclude Include="..\..\..\source\Strategy\PositionImpl.h" />
+    <ClInclude Include="..\..\..\source\Strategy\Runtime.h" />
+    <ClInclude Include="..\..\..\source\Strategy\Strategy.h" />
+    <ClInclude Include="..\..\..\source\Strategy\StrategyImpl.h" />
+    <ClInclude Include="..\..\..\source\Technical\ATR.h" />
+    <ClInclude Include="..\..\..\source\Technical\Cross.h" />
+    <ClInclude Include="..\..\..\source\Technical\HighLow.h" />
+    <ClInclude Include="..\..\..\source\Technical\MA.h" />
+    <ClInclude Include="..\..\..\source\Technical\MACD.h" />
+    <ClInclude Include="..\..\..\source\Technical\RSI.h" />
+    <ClInclude Include="..\..\..\source\Technical\Stoch.h" />
+    <ClInclude Include="..\..\..\source\Technical\Technical.h" />
+    <ClInclude Include="..\..\..\source\Utils\Condition.h" />
+    <ClInclude Include="..\..\..\source\Utils\cpplog.h" />
+    <ClInclude Include="..\..\..\source\Utils\DateTime.h" />
+    <ClInclude Include="..\..\..\source\Utils\Errors.h" />
+    <ClInclude Include="..\..\..\source\Utils\Lock.h" />
+    <ClInclude Include="..\..\..\source\Utils\Logger.h" />
+    <ClInclude Include="..\..\..\source\Utils\Mutex.h" />
+    <ClInclude Include="..\..\..\source\Utils\Random.h" />
+    <ClInclude Include="..\..\..\source\Utils\Thread.h" />
+    <ClInclude Include="..\..\..\source\Utils\Timer.h" />
+    <ClInclude Include="..\..\..\source\Utils\tinyxml2.h" />
+    <ClInclude Include="..\..\..\source\Utils\Utils.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DFA62B02-056B-487F-A815-BA153D17888B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>xBacktest</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\source\Optimizer;..\..\..\source\Broker;..\..\..\source\Core;..\..\..\source\Series;..\..\..\source\Feed;..\..\..\source\Strategy;..\..\..\source\Utils;..\..\..\source\Analyzer;..\..\..\source\Technical;E:\SOURCES\Quant\TeaTime\TeaFiles\TeaFiles.Cpp;E:\SOURCES\Quant\TeaTime\TeaFiles\TeaFiles.Cpp\Lib</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>E:\SOURCES\CPP\boost_1_53_0\stage\lib;E:\SOURCES\Quant\TeaTime\TeaFiles\TeaFiles.Cpp\Bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>TeaFiles32d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\source\Broker;..\..\..\source\Core;..\..\..\source\DataSeries;..\..\..\source\Feed;..\..\..\source\Strategy;..\..\..\source\Tools</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\source\Broker;..\..\..\source\Optimizer;..\..\..\source\Core;..\..\..\source\Series;..\..\..\source\Feed;..\..\..\source\Strategy;..\..\..\source\Utils;..\..\..\source\Indicator;..\..\..\source\Analyzer;E:\SOURCES\CPP\boost_1_53_0;E:\SOURCES\Quant\TeaTime\TeaFiles\TeaFiles.Cpp</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>E:\SOURCES\CPP\boost_1_53_0\stage\lib;E:\SOURCES\Quant\TeaTime\TeaFiles\TeaFiles.Cpp\Bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>TeaFiles32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

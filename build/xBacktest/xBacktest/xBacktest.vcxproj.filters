@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{46d0a576-d2cc-490c-bf3a-3e6df27e0adc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Broker">
+      <UniqueIdentifier>{9a401735-adc0-4264-b71a-d429cd9f7864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Core">
+      <UniqueIdentifier>{977d210a-62fd-4088-bb0d-be287a882f46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Feed">
+      <UniqueIdentifier>{9a872ee6-69b8-44d5-a7ab-0a689f63d056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Optimizer">
+      <UniqueIdentifier>{c1090836-bd59-4f07-8957-0b702c335ee7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Strategy">
+      <UniqueIdentifier>{625ba263-d1bc-41e5-897d-7fc358bde579}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Utils">
+      <UniqueIdentifier>{11abb1f7-27d2-4f26-9353-d8243068cd65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Series">
+      <UniqueIdentifier>{83b8cdbe-91b1-4fca-9100-42c1d16ea798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Analyzer">
+      <UniqueIdentifier>{37cba79d-4915-481d-8963-b446c52d681f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Shell">
+      <UniqueIdentifier>{7ad818cd-c6a0-41cf-9a46-f6698b60c479}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Technical">
+      <UniqueIdentifier>{c85e2372-e7fb-4c41-805b-076948cc7b5e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\source\Core\Dispatcher.cpp">
+      <Filter>source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Core\Event.cpp">
+      <Filter>source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Core\Observer.cpp">
+      <Filter>source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Feed\BaseFeed.cpp">
+      <Filter>source\Feed</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Feed\csv_parser.cpp">
+      <Filter>source\Feed</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Core\Bar.cpp">
+      <Filter>source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Broker\Order.cpp">
+      <Filter>source\Broker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Broker\FillStrategy.cpp">
+      <Filter>source\Broker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Broker\Broker.cpp">
+      <Filter>source\Broker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Broker\Backtesting.cpp">
+      <Filter>source\Broker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Feed\BarFeed.cpp">
+      <Filter>source\Feed</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Strategy\Position.cpp">
+      <Filter>source\Strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Core\Framework.cpp">
+      <Filter>source\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Strategy\Runtime.cpp">
+      <Filter>source\Strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Utils\DateTime.cpp">
+      <Filter>source\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Feed\CsvFeed.cpp">
+      <Filter>source\Feed</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Utils\Utils.cpp">
+      <Filter>source\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Optimizer\Optimizer.cpp">
+      <Filter>source\Optimizer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Utils\tinyxml2.cpp">
+      <Filter>source\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Analyzer\Drawdown.cpp">
+      <Filter>source\Analyzer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Analyzer\Returns.cpp">
+      <Filter>source\Analyzer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Analyzer\Sharpe.cpp">
+      <Filter>source\Analyzer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Analyzer\Trades.cpp">
+      <Filter>source\Analyzer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Series\BarSeries.cpp">
+      <Filter>source\Series</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Series\DataSeries.cpp">
+      <Filter>source\Series</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Shell\Shell.cpp">
+      <Filter>source\Shell</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Optimizer\Backtester.cpp">
+      <Filter>source\Optimizer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Utils\Logger.cpp">
+      <Filter>source\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Feed\TsFileFeed.cpp">
+      <Filter>source\Feed</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Technical\HighLow.cpp">
+      <Filter>source\Technical</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Technical\MA.cpp">
+      <Filter>source\Technical</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Technical\MACD.cpp">
+      <Filter>source\Technical</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Technical\RSI.cpp">
+      <Filter>source\Technical</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Technical\Technical.cpp">
+      <Filter>source\Technical</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Strategy\Strategy.cpp">
+      <Filter>source\Strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Strategy\StrategyImpl.cpp">
+      <Filter>source\Strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Strategy\PositionImpl.cpp">
+      <Filter>source\Strategy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Utils\Errors.cpp">
+      <Filter>source\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Optimizer\GeneticAlgo.cpp">
+      <Filter>source\Optimizer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Utils\Random.cpp">
+      <Filter>source\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Technical\ATR.cpp">
+      <Filter>source\Technical</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Technical\Stoch.cpp">
+      <Filter>source\Technical</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Core\FrameworkImpl.cpp">
+      <Filter>source\Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\source\Broker\Backtesting.h">
+      <Filter>source\Broker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Broker\Broker.h">
+      <Filter>source\Broker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Core\Dispatcher.h">
+      <Filter>source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Core\Event.h">
+      <Filter>source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Core\Observer.h">
+      <Filter>source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Feed\BaseFeed.h">
+      <Filter>source\Feed</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Feed\csv_parser.hpp">
+      <Filter>source\Feed</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Core\Bar.h">
+      <Filter>source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Broker\Order.h">
+      <Filter>source\Broker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Broker\FillStrategy.h">
+      <Filter>source\Broker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Feed\BarFeed.h">
+      <Filter>source\Feed</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Core\Framework.h">
+      <Filter>source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Strategy\Runtime.h">
+      <Filter>source\Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Utils\DateTime.h">
+      <Filter>source\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Utils\Logger.h">
+      <Filter>source\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Utils\Mutex.h">
+      <Filter>source\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Utils\Condition.h">
+      <Filter>source\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Utils\Lock.h">
+      <Filter>source\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Utils\Thread.h">
+      <Filter>source\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Feed\CsvFeed.h">
+      <Filter>source\Feed</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Utils\Utils.h">
+      <Filter>source\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Optimizer\Optimizer.h">
+      <Filter>source\Optimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Utils\tinyxml2.h">
+      <Filter>source\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Analyzer\Drawdown.h">
+      <Filter>source\Analyzer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Analyzer\Returns.h">
+      <Filter>source\Analyzer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Analyzer\Sharpe.h">
+      <Filter>source\Analyzer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Analyzer\StgyAnalyzer.h">
+      <Filter>source\Analyzer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Analyzer\Trades.h">
+      <Filter>source\Analyzer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Series\BarSeries.h">
+      <Filter>source\Series</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Series\circular.h">
+      <Filter>source\Series</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Series\DataSeries.h">
+      <Filter>source\Series</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Core\Defines.h">
+      <Filter>source\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Optimizer\Backtester.h">
+      <Filter>source\Optimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Utils\cpplog.h">
+      <Filter>source\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Feed\TsFileFeed.h">
+      <Filter>source\Feed</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Utils\Timer.h">
+      <Filter>source\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Technical\Cross.h">
+      <Filter>source\Technical</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Technical\HighLow.h">
+      <Filter>source\Technical</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Technical\MA.h">
+      <Filter>source\Technical</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Technical\MACD.h">
+      <Filter>source\Technical</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Technical\RSI.h">
+      <Filter>source\Technical</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Technical\Technical.h">
+      <Filter>source\Technical</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Strategy\Strategy.h">
+      <Filter>source\Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Strategy\StrategyImpl.h">
+      <Filter>source\Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Strategy\PositionImpl.h">
+      <Filter>source\Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Strategy\Position.h">
+      <Filter>source\Strategy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Utils\Errors.h">
+      <Filter>source\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Optimizer\GeneticAlgo.h">
+      <Filter>source\Optimizer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Utils\Random.h">
+      <Filter>source\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Technical\ATR.h">
+      <Filter>source\Technical</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Technical\Stoch.h">
+      <Filter>source\Technical</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\source\Core\FrameworkImpl.h">
+      <Filter>source\Core</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
